@@ -1,2 +1,2 @@
 # aigen-launchpad
-Aigen Launchpad Frontend
+## Aigen Launchpad Frontend Application
