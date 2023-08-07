@@ -5,12 +5,17 @@ import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import registerServiceWorker from './registerServiceWorker';
 import Projects from "./launch/pages/Projects";
+import Connect from "./launch/pages/Connect";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Projects/>,
     },
+    {
+        path: "/connect",
+        element: <Connect/>,
+    }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
